@@ -1,6 +1,7 @@
 services:
   node-app:
     container_name: express-node-app-container
+    image: gamal1798/first-app
     build:
       context: .
     volumes:
